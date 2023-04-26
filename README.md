@@ -1,5 +1,6 @@
 ---
-output: github_document:
+output:
+  github_document:
     html_preview: false
 ---
 
@@ -18,6 +19,13 @@ You can install the development version of `rstanosl` from GitHub with:
 
 ```r
 devtools::install_github("zaandahl/rstanosl")
+```
+
+If you want you can also install the package with a vignette. This will take a few minutes to create:
+
+
+```r
+devtools::install_github("zaandahl/rstanosl", build_vignettes = TRUE)
 ```
 
 ## Getting Started
