@@ -1,0 +1,20 @@
+Package: rstanosl
+Title: OSL model fitting with Stan
+Version: 1.0.0
+Authors@R: c( 
+    person("Zach", "Aandahl", , "zach.aandahl@utas.edu.au", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9412-8288")),
+    person("Luke", "Yates", , "luke.yates@utas.edu.au", role = c("aut"),
+           comment = c(ORCID = "0000-0002-1685-3169")))
+Description: Fit optical stimulated luminescence (OSL) data to statistical models with Stan
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: R (>= 3.5.0)
+Imports: rstan (>= 2.30.0)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
