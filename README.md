@@ -44,7 +44,13 @@ Load the example data:
 library(rstanosl)
 ```
 
-Provide some examples of how to use your package with the example data, including any relevant functions and their parameters.
+Fit a ALMM model to a single depth layer of the data:
+
+
+```r
+osl_data_46 <- osl_data %>% filter(Depth == 46)
+almm_fit <- almm(osl_data_46, logged = T, sigma = NULL, refresh = 0)
+```
 
 ## Further Resources
 
