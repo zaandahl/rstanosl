@@ -90,4 +90,4 @@ docker compose down
 
 ## License
 
-Your package license information (e.g., MIT, GPL-3, etc.)
+BSD-3-Clause License (see LICENSE file)
