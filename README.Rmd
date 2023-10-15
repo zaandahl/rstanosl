@@ -8,7 +8,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 ```
 
-![rstanosl logo](man/figures/logo.png)
+<img src="man/figures/logo.png" alt="rstanosl Hex Sticker" width="200" align="right"/>
 
 # rstanosl
 
