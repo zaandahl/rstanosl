@@ -1,12 +1,7 @@
----
-output:
-  github_document:
-    html_preview: false
----
 
 
 
-![rstanosl logo](man/figures/logo.png)
+<img src="man/figures/logo.png" alt="rstanosl Hex Sticker" width="200" align="right"/>
 
 # rstanosl
 
