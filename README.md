@@ -16,7 +16,7 @@ You can install the development version of `rstanosl` from GitHub with:
 devtools::install_github("zaandahl/rstanosl")
 ```
 
-If you want you can also install the package with a vignette. This will take a few minutes to create:
+If you want you can also install the package with a vignette. You need to install `bayesplot` prior to building the vignette. This will take a few minutes to create:
 
 
 ```r
