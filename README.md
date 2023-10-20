@@ -49,7 +49,7 @@ almm_fit <- almm(osl_data_46, logged = T, sigma = NULL, refresh = 0)
 
 ## Further Resources
 
-- [Getting Started with rstanosl Vignette](link-to-vignette): A step-by-step guide to using the rstanosl package with example data.
+- [Getting Started with rstanosl Vignette](https://github.com/zaandahl/rstanosl/blob/main/vignettes/getting-started-with-rstanosl.md): A step-by-step guide to using the rstanosl package with example data.
 - [Stan documentation](https://mc-stan.org/users/documentation/): Learn more about Stan, a probabilistic programming language for statistical modeling.
 
 ## Building this package with `devtools` README and vignette
